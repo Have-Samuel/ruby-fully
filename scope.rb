@@ -15,16 +15,21 @@ a = 5
 
 3.times do |n|
     a =3
-    b = 5
+    # b = 5
 end
 puts a
-puts b
+# puts b
 
 # Optionally
 3.times { |n| a = 3, b = 5 }
 puts a 
-puts b
+# puts b
 
+arr = [1, 2, 3]
+for i in arr do
+    a = 5
+end
+puts a
 
 
 
