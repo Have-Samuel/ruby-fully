@@ -35,11 +35,15 @@ puts "So your names are #{first_name} #{last_name}"
 # end
 # puts x
 
-y = 0
-3.times do
-    y += 1
-    x = y
-end
-puts x
+# y = 0
+# 3.times do
+#     y += 1
+#     x = y
+# end
+# puts x
 
 # What does x print to the screen in each case? Do they both give errors? Are the errors different? Why?
+
+var = 'have a nice day'
+var.upcase!
+puts var
